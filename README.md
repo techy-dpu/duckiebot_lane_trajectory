@@ -2,7 +2,7 @@
 
 This project runs on ROS workspace.
 
-![alt text](https://github.com/techy-dpu/duckiebot_lane_trajectory/tree/main/resized_images/duckiebot_pipeline.jpg)
+![Duckiebot ROS Pipeline](https://github.com/techy-dpu/duckiebot_lane_trajectory/tree/main/resized_images/duckiebot_pipeline.jpg)
 
 
 Running Instructions
