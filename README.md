@@ -9,51 +9,53 @@ Running Instructions
 ----------------------
 # Create ROS package
 ----------------------
+
 1. Move to catkin work space in your machine
 
-$ cd ~/catkin_ws/src
+    $ cd ~/catkin_ws/src
 
 2. catkin_create_pkg is the script used to create a new package. I want to create a package named 'lane_move' which depends on std_msgs, and rospy.
 
-$ catkin_create_pkg lane_move std_msgs rospy
+    $ catkin_create_pkg lane_move std_msgs rospy
 
 3. Check the files created under the package
 
-$ ls lane_move
+    $ ls lane_move
 
 ----------------------
 # Add publisher code
 ----------------------
+
 1. Change directory to the package source
 
-$ cd src/lane_move/src
+    $ cd src/lane_move/src
 
 
 2. copy the code move.py, lane_detection.py to the location 'src/lane_move/src'
 
-$ cp move.py lane_detection.py ./
+    $ cp move.py lane_detection.py ./
 
 
 3. Make the script executable
 
-$ chmod +x move.py
+    $ chmod +x move.py
 
-$ chmod +x lane_detection.py
+    $ chmod +x lane_detection.py
 
 
 4. Move back to the catkin space
 
-$ cd ~/catkin_ws/src
+    $ cd ~/catkin_ws/src
 
 
 5. Build the package
 
-$ catkin_make
+    $ catkin_make
 
 
 6. Source the bash.
 
-$ source devel/setup.bash
+        $ source devel/setup.bash
 
 ----------------------
 # Make the robot move
@@ -61,7 +63,7 @@ $ source devel/setup.bash
 
 Run the publisher code
 
-$ rosrun lane_move move.py
+    $ rosrun lane_move move.py
 
 
 ------------------------
