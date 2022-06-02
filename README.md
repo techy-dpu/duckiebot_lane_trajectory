@@ -7,7 +7,7 @@ This project runs on ROS workspace.
 
 Running Instructions
 ----------------------
-#Create ROS package
+# Create ROS package
 ----------------------
 1. Move to catkin work space in your machine
 $ cd ~/catkin_ws/src
